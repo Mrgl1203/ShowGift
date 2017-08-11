@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         gifiv = (ImageView) findViewById(R.id.gifiv);
         assetManager = getAssets();
         String loadUrl = GifUrl.G4;
-//        gifiv.setImageBitmap(getFileFromAsset("floatcircleviewgif.gif"));  //只能显示gif第一帧
+//        gifiv.setImageBitmap(getFileFromAsset("floatcircleviewgif.gif"));  //只能显示gif第一帧！
 //        Glide.with(this).load(GifUrl.G2).into(gifiv);//可以加载网络gif图
         //RequestOptions一次设置可以在多次使用
         RequestOptions options = new RequestOptions()
