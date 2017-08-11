@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 .error(R.mipmap.ic_launcher)
                 .priorityOf(Priority.HIGH)
                 .diskCacheStrategy(DiskCacheStrategy.NONE)
-                .override(400, 4000);
+                .override(400, 400);
         Glide.with(this).load(loadUrl)
                 .apply(options)
                 .thumbnail(Glide.with(this).load(loadUrl))//在gif没有加载出来前会先加载他的缩略图出来
